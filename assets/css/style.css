@@ -1,0 +1,53 @@
+head,body,footer,header {
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;    
+    position: relative;
+    min-width: 50%;
+    min-height: 50%;
+    height: 50%;
+}
+
+body {
+    
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/stripes-light.png")
+}
+
+
+header {
+    text-align: left;
+}
+
+ul {
+    text-align: right;
+}
+li {
+    display: inline;
+}
+
+#name {
+ background:#71b1ec;  
+ text-align: left;
+ margin: 10px;
+ padding: 20px;
+ width: 150px;
+ overflow: auto;
+}
+
+img {
+    float: left;
+}
+
+footer {
+background:#666666;
+ text-align: center;
+ border-block-start-color: black;
+ padding: 1px;
+ width: 100%;
+ overflow: hidden;
+ display: block;
+}
+
+.clear {
+    clear: both
+}
+
+
